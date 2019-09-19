@@ -8,7 +8,6 @@ export default {
   name: 'EchartsMap',
   data () {
     return {
-      myChart: null,
       center: [120.13066322374, 30.240018034923],
       zoom: 10,
       roam: true,
