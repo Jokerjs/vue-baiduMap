@@ -3,7 +3,7 @@ import { Message } from 'iview'
 import 'iview/dist/styles/iview.css'
 
 // create an axios instance
-const apiHttp = 'http://localhost:8080/static'
+const apiHttp = '/static'
 const service = axios.create({
   baseURL: apiHttp, // api 的 base_url
   timeout: 5000 // request timeout

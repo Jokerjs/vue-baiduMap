@@ -14,6 +14,9 @@
         <Menu-item name="MyMap" to="my-map">地图</Menu-item>
         <Menu-item name="Charts" to="Charts">Charts</Menu-item>
         <Menu-item name="EchartsMap" to="echarts-map">Echarts地图</Menu-item>
+        <Menu-item name="HenanMap" to="henan-map">河南地图</Menu-item>
+        <Menu-item name="ZhengzhouMap" to="zhengzhou-map">郑州地图</Menu-item>
+        <Menu-item name="JinshuiMap" to="jinshui-map">金水区地图</Menu-item>
       </div>
     </Menu>
     <div class="layout-breadcrumb">

@@ -34,6 +34,30 @@ export default new Router({
         meta: {
           title: 'EchartsMap'
         }
+      },
+      {
+        path: 'henan-map',
+        component: _import('HenanMap'),
+        name: 'HenanMap',
+        meta: {
+          title: 'HenanMap'
+        }
+      },
+      {
+        path: 'zhengzhou-map',
+        component: _import('ZhengzhouMap'),
+        name: 'ZhengzhouMap',
+        meta: {
+          title: 'ZhengzhouMap'
+        }
+      },
+      {
+        path: 'jinshui-map',
+        component: _import('JinshuiMap'),
+        name: 'JinshuiMap',
+        meta: {
+          title: 'JinshuiMap'
+        }
       }]
     }
   ]
